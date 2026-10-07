@@ -1,537 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="NOIRÉ MEN - Luxury fragrances crafted for the modern man."
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOIRÉ MEN - Luxury Perfumes for the Modern Man">
     <title>NOIRÉ MEN | Luxury Perfumes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQp1B1nT7h0G5T+1cPFYpI8bF7mC2G1Xw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="background-marble"></div>
-    <header class="site-header">
-      <nav class="navbar container">
-        <div class="brand">
-          <div class="brand-mark">N</div>
-          <span>NOIRÉ MEN</span>
-        </div>
-
-        <button class="nav-toggle" aria-label="Open menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <div class="nav-menu">
-          <a href="#home">Home</a>
-          <a href="#shop">Shop</a>
-          <a href="#collections">Collections</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
-
-        <div class="nav-actions">
-          <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
-          <button class="icon-btn cart-btn" aria-label="Cart">
-            <i class="fa-solid fa-bag-shopping"></i>
-            <span class="cart-count">2</span>
-          </button>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section id="home" class="hero">
-        <div class="container hero-wrap reveal">
-          <div class="hero-content">
-            <p class="eyebrow">Luxury Fragrance House</p>
-            <h1>SCENT OF CONFIDENCE</h1>
-            <p class="subtitle">Luxury Fragrances Crafted for the Modern Man</p>
-            <div class="cta-group">
-              <a href="#shop" class="btn btn-primary">SHOP NOW</a>
-              <a href="#collections" class="btn btn-secondary">EXPLORE COLLECTION</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-icon">N</span>
+                <span class="brand-text">NOIRÉ MEN</span>
             </div>
-            <ul class="hero-meta">
-              <li><strong>12k+</strong> loyal clients</li>
-              <li><strong>8h</strong> long-lasting</li>
-              <li><strong>100%</strong> premium blends</li>
-            </ul>
-          </div>
-
-          <div class="hero-visual">
-            <div class="hero-glow"></div>
-            <div class="bottle-card">
-              <div class="bottle-image">
-                <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80" alt="Luxury men perfume bottle" />
-              </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#shop" class="nav-link">SHOP</a>
+                <a href="#collections" class="nav-link">COLLECTIONS</a>
+                <a href="#about" class="nav-link">ABOUT US</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="shop" class="featured section-spacing">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Curated excellence</p>
-            <h2>THE SIGNATURE COLLECTION</h2>
-          </div>
-
-          <div class="product-grid">
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=80" alt="Noir Intense" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Woody</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-                </div>
-                <h3>Noir Intense</h3>
-                <p>Deep amber woods with a magnetic smoky trail.</p>
-                <div class="price-row">
-                  <span class="price">$149</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=80" alt="Black Oud" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Oud</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
-                </div>
-                <h3>Black Oud</h3>
-                <p>Rich Arabian oud for a bold, commanding presence.</p>
-                <div class="price-row">
-                  <span class="price">$169</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=80" alt="Royal Musk" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Musk</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-                </div>
-                <h3>Royal Musk</h3>
-                <p>Velvet musks elevated by crisp, regal sophistication.</p>
-                <div class="price-row">
-                  <span class="price">$159</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1563170351-be82bc888e4e?auto=format&fit=crop&w=900&q=80" alt="Midnight Elite" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Fresh</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
-                </div>
-                <h3>Midnight Elite</h3>
-                <p>A crisp nocturnal blend balancing energy and elegance.</p>
-                <div class="price-row">
-                  <span class="price">$145</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80" alt="Dark Leather" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Leather</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
-                </div>
-                <h3>Dark Leather</h3>
-                <p>Smoked leather and spice for polished, unmistakable power.</p>
-                <div class="price-row">
-                  <span class="price">$155</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card reveal">
-              <div class="product-image-wrap">
-                <img src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=900&q=80" alt="Imperial Night" />
-              </div>
-              <div class="product-body">
-                <div class="product-topline">
-                  <span class="tag">Oriental</span>
-                  <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
-                </div>
-                <h3>Imperial Night</h3>
-                <p>Vanilla incense and spice wrapped in a velvet finish.</p>
-                <div class="price-row">
-                  <span class="price">$179</span>
-                  <div class="product-actions">
-                    <button class="small-btn cart-button">Add to Cart</button>
-                    <button class="small-btn buy-button">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="collections" class="categories section-spacing">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Fragrance notes</p>
-            <h2>DISCOVER BY CATEGORY</h2>
-          </div>
-
-          <div class="category-grid">
-            <article class="category-card reveal">
-              <div class="category-inner">
-                <span>Woody</span>
-              </div>
-            </article>
-            <article class="category-card reveal">
-              <div class="category-inner alt">
-                <span>Oud</span>
-              </div>
-            </article>
-            <article class="category-card reveal">
-              <div class="category-inner third">
-                <span>Fresh</span>
-              </div>
-            </article>
-            <article class="category-card reveal">
-              <div class="category-inner fourth">
-                <span>Musk</span>
-              </div>
-            </article>
-            <article class="category-card reveal">
-              <div class="category-inner fifth">
-                <span>Leather</span>
-              </div>
-            </article>
-            <article class="category-card reveal">
-              <div class="category-inner sixth">
-                <span>Oriental</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="best-sellers section-spacing">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Most loved</p>
-            <h2>BEST SELLERS</h2>
-          </div>
-
-          <div class="seller-layout">
-            <article class="seller-highlight reveal">
-              <div class="seller-image">
-                <img src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=900&q=80" alt="Imperial Night" />
-              </div>
-              <div class="seller-info">
-                <span class="tag">Top Pick</span>
-                <h3>Imperial Night</h3>
-                <p>Velvet spice, warm resin, and amber depth for unforgettable nights.</p>
-                <div class="seller-bottom">
-                  <span class="price">$179</span>
-                  <button class="small-btn cart-button">Add to Cart</button>
-                </div>
-              </div>
-            </article>
-
-            <article class="seller-highlight reveal">
-              <div class="seller-image">
-                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=80" alt="Black Oud" />
-              </div>
-              <div class="seller-info">
-                <span class="tag">Best Value</span>
-                <h3>Black Oud</h3>
-                <p>Layered woods and smoky incense for a distinguished signature trail.</p>
-                <div class="seller-bottom">
-                  <span class="price">$169</span>
-                  <button class="small-btn cart-button">Add to Cart</button>
-                </div>
-              </div>
-            </article>
-
-            <article class="seller-highlight reveal">
-              <div class="seller-image">
-                <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=80" alt="Royal Musk" />
-              </div>
-              <div class="seller-info">
-                <span class="tag">Editor’s Choice</span>
-                <h3>Royal Musk</h3>
-                <p>Clean, radiant, and ultra-modern with a refined musk finish.</p>
-                <div class="seller-bottom">
-                  <span class="price">$159</span>
-                  <button class="small-btn cart-button">Add to Cart</button>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="brand-story">
-        <div class="container story-wrap reveal">
-          <div class="story-copy">
-            <p class="eyebrow">About the house</p>
-            <h2>ABOUT THE BRAND</h2>
-            <p>
-              NOIRÉ MEN creates sophisticated fragrances for confident, modern men — curated with layered notes,
-              premium ingredients, and intentionally refined character. Every bottle is designed to embody presence,
-              distinction, and the understated confidence of a man who knows exactly who he is.
-            </p>
-            <p>
-              We blend rare ingredients, artistry, and modern perfumery to craft scents that leave a lasting impression
-              from the first spray to the final trail.
-            </p>
-          </div>
-          <div class="story-visual">
-            <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=80" alt="Luxury perfume bottle" />
-          </div>
-        </div>
-      </section>
-
-      <section class="benefits section-spacing">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Why choose us</p>
-            <h2>WHY NOIRÉ MEN</h2>
-          </div>
-
-          <div class="feature-grid">
-            <div class="feature-box reveal">
-              <i class="fa-solid fa-clock"></i>
-              <h3>Long Lasting Fragrance</h3>
-              <p>Premium longevity that stays striking from day to night.</p>
+            <div class="nav-right">
+                <input type="text" id="searchInput" class="search-box" placeholder="Search...">
+                <button class="icon-btn" id="cartBtn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-            <div class="feature-box reveal">
-              <i class="fa-solid fa-seedling"></i>
-              <h3>Premium Ingredients</h3>
-              <p>Meticulously sourced notes for an elevated, refined finish.</p>
-            </div>
-            <div class="feature-box reveal">
-              <i class="fa-solid fa-gift"></i>
-              <h3>Luxury Packaging</h3>
-              <p>Elegant presentation worthy of gifting and display.</p>
-            </div>
-            <div class="feature-box reveal">
-              <i class="fa-solid fa-truck-fast"></i>
-              <h3>Fast Delivery</h3>
-              <p>Secure shipping and quick dispatch across the country.</p>
-            </div>
-          </div>
         </div>
-      </section>
+    </nav>
 
-      <section class="reviews section-spacing">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">SCENT OF CONFIDENCE</h1>
+            <p class="hero-subtitle">Luxury Fragrances Crafted for the Modern Man</p>
+            <div class="hero-buttons">
+                <a href="#shop" class="btn btn-primary">SHOP NOW</a>
+                <a href="#collections" class="btn btn-secondary">EXPLORE COLLECTION</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=600&q=80" alt="Luxury Perfume Bottle">
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
         <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Client feedback</p>
-            <h2>WHAT OUR CUSTOMERS SAY</h2>
-          </div>
+            <div class="section-header">
+                <h2>THE SIGNATURE COLLECTION</h2>
+                <p>Discover Our Finest Fragrances</p>
+            </div>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="woody">WOODY</button>
+                <button class="filter-btn" data-filter="oud">OUD</button>
+                <button class="filter-btn" data-filter="musk">MUSK</button>
+                <button class="filter-btn" data-filter="fresh">FRESH</button>
+                <button class="filter-btn" data-filter="oriental">ORIENTAL</button>
+            </div>
 
-          <div class="review-grid">
-            <article class="review-card reveal">
-              <div class="review-top">
-                <div class="avatar">A</div>
-                <div>
-                  <h3>Adrian K.</h3>
-                  <span>Verified Buyer</span>
-                </div>
-              </div>
-              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <p>“A luxurious scent profile with excellent longevity. It feels refined and commanding without being overbearing.”</p>
-            </article>
-
-            <article class="review-card reveal">
-              <div class="review-top">
-                <div class="avatar">M</div>
-                <div>
-                  <h3>Marcus L.</h3>
-                  <span>Verified Buyer</span>
-                </div>
-              </div>
-              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <p>“The packaging is beautiful and the fragrance projects with confidence. This is definitely premium.”</p>
-            </article>
-
-            <article class="review-card reveal">
-              <div class="review-top">
-                <div class="avatar">R</div>
-                <div>
-                  <h3>Rafael S.</h3>
-                  <span>Verified Buyer</span>
-                </div>
-              </div>
-              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
-              <p>“Black Oud is my new signature scent. It has a strong presence and feels expensive in the best way.”</p>
-            </article>
-
-            <article class="review-card reveal">
-              <div class="review-top">
-                <div class="avatar">D</div>
-                <div>
-                  <h3>Daniel P.</h3>
-                  <span>Verified Buyer</span>
-                </div>
-              </div>
-              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <p>“The quality feels premium from start to finish. The scent is polished, masculine and effortlessly elegant.”</p>
-            </article>
-          </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be generated by JavaScript -->
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section class="newsletter section-spacing">
-        <div class="container newsletter-box reveal">
-          <p class="eyebrow dark">Exclusive access</p>
-          <h2>JOIN THE INNER CIRCLE</h2>
-          <p>Get exclusive access to new fragrances, offers and private collections.</p>
-          <form class="newsletter-form">
-            <input type="email" placeholder="Enter your email" aria-label="Your email" />
-            <button type="submit">SUBSCRIBE</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer">
-      <div class="container footer-grid">
-        <div class="footer-brand">
-          <div class="brand">
-            <div class="brand-mark">N</div>
-            <span>NOIRÉ MEN</span>
-          </div>
-          <p>Luxury fragrances designed for the modern man.</p>
-        </div>
-
-        <div>
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#collections">Collections</a></li>
-            <li><a href="#about">About</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Shop</h3>
-          <ul>
-            <li><a href="#shop">Signature Collection</a></li>
-            <li><a href="#collections">Best Sellers</a></li>
-            <li><a href="#newsletter">Gift Sets</a></li>
-            <li><a href="#contact">Accessories</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Customer Support</h3>
-          <ul>
-            <li><a href="#">Shipping</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Private Sales</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Connect</h3>
-          <div class="socials">
-            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          </div>
-          <p><i class="fa-solid fa-location-dot"></i> 42 Mercer Street, New York</p>
-          <p><i class="fa-solid fa-phone"></i> +1 (800) 555-0148</p>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
+    <!-- Collections Section -->
+    <section id="collections" class="collections">
         <div class="container">
-          <p>© 2026 NOIRÉ MEN. All rights reserved.</p>
+            <div class="section-header">
+                <h2>FRAGRANCE FAMILIES</h2>
+                <p>Find Your Perfect Scent</p>
+            </div>
+            <div class="collections-grid">
+                <div class="collection-card collection-card-1">
+                    <div class="collection-overlay">
+                        <h3>WOODY</h3>
+                        <p>Deep & Sophisticated</p>
+                    </div>
+                </div>
+                <div class="collection-card collection-card-2">
+                    <div class="collection-overlay">
+                        <h3>OUD</h3>
+                        <p>Rich & Intense</p>
+                    </div>
+                </div>
+                <div class="collection-card collection-card-3">
+                    <div class="collection-overlay">
+                        <h3>FRESH</h3>
+                        <p>Crisp & Clean</p>
+                    </div>
+                </div>
+                <div class="collection-card collection-card-4">
+                    <div class="collection-overlay">
+                        <h3>MUSK</h3>
+                        <p>Smooth & Sensual</p>
+                    </div>
+                </div>
+                <div class="collection-card collection-card-5">
+                    <div class="collection-overlay">
+                        <h3>LEATHER</h3>
+                        <p>Bold & Masculine</p>
+                    </div>
+                </div>
+                <div class="collection-card collection-card-6">
+                    <div class="collection-overlay">
+                        <h3>ORIENTAL</h3>
+                        <p>Warm & Exotic</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>ABOUT NOIRÉ MEN</h2>
+                    <p>We craft sophisticated fragrances for confident, modern men. Every scent is a masterpiece, blending rare ingredients with contemporary elegance.</p>
+                    <p>Our mission is to provide luxury fragrances that enhance your presence and leave an unforgettable impression. From the first spray to the final note, experience premium quality and timeless sophistication.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=500&q=80" alt="About NOIRÉ MEN">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>GET IN TOUCH</h2>
+                <p>We'd Love to Hear From You</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>42 Mercer Street, New York, NY 10013</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+1 (800) 555-0148</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>hello@noiremEN.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>JOIN OUR INNER CIRCLE</h2>
+                <p>Get exclusive access to new fragrances, special offers, and private collections</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NOIRÉ MEN</h3>
+                    <p>Luxury Fragrances for the Modern Man</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>CUSTOMER SUPPORT</h3>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>NEWSLETTER</h3>
+                    <p>Subscribe to get special offers and news</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NOIRÉ MEN. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
-    <div class="cart-panel">
-      <div class="cart-header">
-        <h3>Your Cart</h3>
-        <button class="close-cart" aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-      <div class="cart-items">
-        <div class="cart-item">
-          <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=300&q=80" alt="Noir Intense" />
-          <div>
-            <h4>Noir Intense</h4>
-            <p>$149</p>
-          </div>
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>YOUR CART</h3>
+            <button class="close-btn" id="closeCart"><i class="fas fa-times"></i></button>
         </div>
-        <div class="cart-item">
-          <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=300&q=80" alt="Black Oud" />
-          <div>
-            <h4>Black Oud</h4>
-            <p>$169</p>
-          </div>
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Your cart is empty</p>
         </div>
-      </div>
-      <div class="cart-footer">
-        <div class="subtotal"><span>Subtotal</span><strong>$318</strong></div>
-        <button class="btn btn-primary checkout-btn">Checkout</button>
-      </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>TOTAL:</span>
+                <span id="cartTotal">$0</span>
+            </div>
+            <button class="btn btn-primary" id="checkoutBtn">CHECKOUT</button>
+        </div>
     </div>
 
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
